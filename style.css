@@ -1,0 +1,235 @@
+@font-face {
+    font-family: Mont;
+    src: url(./plugins/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    font-family: mont;
+    position: relative;
+}
+.hero{
+    height: 150vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.351),rgba(0, 0, 0, 0.391)),url(./images/img1.jpeg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.navbar{
+    position: absolute;
+    top: 0%;
+    height: 100px;
+    width: 90%;
+    background-color: #141414;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.navbar .logo{
+    margin: 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar .logo img{
+    height: 50px;
+    width: 50px;
+}
+.navbar .logo h3{
+    margin: 0px 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navbar .nav-item ul{
+    display: flex;
+    list-style: none;
+}
+.navbar .nav-item li{
+    margin: 0px 10px;
+    
+}
+.navbar .nav-item ul li a{
+    margin: 0px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #D0D0D0;
+    font-size: 19px;
+    letter-spacing: 4px;
+    transition: .3s;
+}
+.navbar .nav-item ul li a:hover{
+    color: red;
+    cursor: pointer;
+}
+.navbar .shop{
+    margin: 0px 50px;
+}
+.hero h1{
+    position: absolute;
+    top: 28%;
+    font-size: 84px;
+    color: #fff;
+    text-align: center;
+    line-height: 87px;
+}
+.hero p{
+    position: absolute;
+    top: 46%;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+.btn-grp{
+    position: absolute;
+    top: 57%;
+}
+.btn-grp button{
+    font-family: mont;
+    height: 66px;
+    width: 300px;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    margin: 0px 14px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    transition: .3s;
+}
+.btn-grp button:hover{
+    cursor: pointer;
+    transform: translateY(-8px);
+    background-color: red;
+    color: #fff;
+}
+.btn-grp .btn-2{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: .3s;
+}
+.btn-grp .btn-2:hover{
+    cursor: pointer;
+    transform: translateY(-8px);
+    background-color: #fff;
+    color: #000;
+}
+.hero-info{
+    position: absolute;
+    top: 82%;
+    left:0;
+    height: 285px;
+    width: 95%;
+    background-color: #141414;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-info .card-container{
+    height: 90%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-info .card{
+    position: relative;
+    height: 240px;
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.info-text{
+    margin: 0px 20px;
+    height: 150px;
+    width: 50%;
+}
+.info-text h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 250px;
+    letter-spacing: 1px;
+    margin: 0px 12px;
+}
+.info-text p{
+   line-height: 40px;
+   text-align: left;
+   font-size: 20px;
+   text-transform: uppercase;
+}
+.info-text .un{
+    text-decoration: underline;
+    font-size: 18px;
+}
+   
+.page2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.page2 h1{
+    font-size: 55px;
+    font-weight: 800;
+    text-align: center;
+}
+.page2 p{
+    font-size: 18px;
+    margin: 20px 0px;
+    opacity: .4;
+}
+
+.btn-grp2 button{
+    font-family: mont;
+    height: 66px;
+    width: 300px;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    margin: 0px 14px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    transition: .3s;
+}
+.btn-grp2 button:hover{
+    cursor: pointer;
+    transform: translateY(-8px);
+    background-color: red;
+    color: #fff;
+}
+.btn-grp2 .btn-2{
+    background: #fff;
+    border: 1px solid #000;
+    color: #000;
+    transition: .3s;
+}
+.btn-grp2 .btn-2:hover{
+    cursor: pointer;
+    transform: translateY(-8px);
+    background-color: #000;
+    color: #fff;
+}
